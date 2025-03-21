@@ -1,0 +1,154 @@
+
+ 
+    <style>
+       
+
+        .slider-container {
+            width: 50%;
+            overflow: hidden;
+            position: relative;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slider {
+            display: flex;
+            gap: 30px;
+            animation: slide 100s linear infinite;
+            width: max-content;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .slide img {
+            width: 120px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .slide img:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes slide {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Navigation Buttons */
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+            font-size: 18px;
+            border-radius: 50%;
+        }
+
+        .prev { left: 10px; }
+        .next { right: 10px; }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+    </style>
+
+
+<div class="slider-container" style="display: flex; justify-content: center; align-items: center; width: 100%;">
+
+       <!-- <button class="prev">&#10094;</button> -->
+        <div class="slider">
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+            <!-- Duplicate slides for smooth infinite scrolling -->
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+            <!-- Duplicate slides for smooth infinite scrolling -->
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+            <!-- Duplicate slides for smooth infinite scrolling -->
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+            <!-- Duplicate slides for smooth infinite scrolling -->
+            <div class="slide"><img src="images/slider-images/answer-the-public-app.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/donateclearly.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/guidepointerpng.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/icaremanager.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/images.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/istay.jpeg" alt=""></div>
+            <div class="slide"><img src="images/slider-images/kayronlearning.png" alt=""></div>
+            <div class="slide"><img src="images/slider-images/productions.png" alt=""></div>
+        </div>
+      <!--  <button class="next">&#10095;</button> -->
+    </div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const slider = document.querySelector(".slider");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+
+            let scrollAmount = 0;
+            const slideWidth = document.querySelector(".slide").offsetWidth + 0; // Include gap
+
+            nextBtn.addEventListener("click", function () {
+                slider.scrollBy({ left: slideWidth, behavior: "smooth" });
+            });
+
+            prevBtn.addEventListener("click", function () {
+                slider.scrollBy({ left: -slideWidth, behavior: "smooth" });
+            });
+        });
+    </script>
+
+
